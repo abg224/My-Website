@@ -1,12 +1,90 @@
 <!DOCTYPE html>
-	<head>
+<html lang="en">
+  <head>
+    <title>Ariel Ganz's Website</title>
 
-	</head>
-	
-	<body>
-		<p> Hello
-		</p>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
-	</body>
-	
+    <!-- My custom styles for this template -->
+    <link href="main.css" rel="stylesheet">
+
+    <style>
+      .title {
+        margin-top: -500px;
+        font-size: 80px;
+        color: rgba(0,0,0, .4);
+      }
+      #subtitle {
+        margin-top: 0px; 
+        font-size: 24px;
+        color: rgba(0,0,0, 0.6);
+      }
+      .lead {
+        margin-top: 1300px;
+      }
+      .imageBox {
+        background: rgba(77,53,40, 0.9);
+      }
+      #mainImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <nav style = "background: rgba(0,0,0,.2); border-color: rgba(0,0,0,0.4)" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class = "imageBox">
+      <img src = "/Users/arielganz/Documents/Photos/Dad Portrait/DSE-14140-2.jpg" id = "mainImage">
+    </div> <!-- /.imageBox -->
+    
+    
+    <div class="container">
+
+    <h1 class = "title">Hello, World</h1>
+    <h1 id = "subtitle"> I'm Ariel. Cornell PhD Student in Molecular Nutrition, CS enthusiast</h1>
+
+    <div class="lead">
+      <p>Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+    </div>
+
+    <div class = "linkedin">
+    </div><!-- /.linkedin -->
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
